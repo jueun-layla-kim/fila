@@ -1,0 +1,244 @@
+/* slide */
+.main-slide {
+    position: relative;
+    width: 100%;
+    height: 1300px;
+}
+
+.main-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.main-slide .slide-text {
+    position: absolute;
+    top: 960px;
+    left: 30px;
+    color: #fff;
+}
+
+.main-slide .slide-text h2 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.main-slide .slide-text a {
+    display: block;
+    width: 230px;
+    height: 70px;
+    line-height: 70px;
+    border: 1px solid #fff;
+    border-radius: 70px;
+    font-size: 24px;
+    text-align: center;
+    margin: 50px 0 0;
+}
+
+/* popular-products */
+.popular-products {
+    margin-bottom: 350px;
+}
+
+.popular-products h3 {
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding-top: 110px;
+}
+
+.popular-products .popular-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 0 100px;
+}
+
+.popular-products .popular-menu li a {
+    font-size: 24px;
+    font-weight: normal;
+    color: #666;
+    display: block;
+    height: 55px;
+    line-height: 55px;
+}
+
+.popular-products .popular-menu li:first-child a {
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px solid #000;
+}
+
+.popular-products .product-list {
+    display: flex;
+    gap: 30px;
+    width: 1920px;
+}
+
+.popular-products .product-list > li {
+    position: relative;
+    width: 495px;
+}
+
+.popular-products .product-list > li img {
+    width: 495px;
+    margin-bottom: 20px;
+}
+
+.popular-products .product-list .product-category {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.popular-products .product-list .product-category li {
+    font-size: 20px;
+}
+
+.popular-products .product-list li h4 {
+    display: block;
+    margin: 15px 0 30px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.popular-products .product-list li p {
+    font-size: 24px;
+}
+
+.popular-products .product-list li .heart-icon {
+    width: 26px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* promotion-section */
+.promotion-section {
+    text-align: center;
+    margin-bottom: 246px;
+}
+
+.promotion-section h3 {
+    text-align: left;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 60px 75px;
+}
+
+.promotion-section .promotion-list {
+    display: flex;
+    gap: 70px;
+}
+
+.promotion-section .promotion-list li img {
+    width: 1130px;
+    height: 1115px;
+    margin-bottom: 60px;
+}
+
+.promotion-section .promotion-list li h4 {
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.promotion-section .promotion-list li p {
+    font-size: 28px;
+    color: #666;
+    margin: 60px 0 90px;
+}
+
+.promotion-section .promotion-list li a:last-child {
+    font-size: 24px;
+}
+
+/* community-section */
+.community-section {
+    margin-bottom: 230px;
+}
+
+.community-section .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.community-section .section-header h3 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 60px 40px;
+}
+
+.community-section .section-header > a {
+    font-size: 24px;
+    margin-right: 60px;
+}
+
+.community-section .community-list {
+    display: flex;
+    gap: 55px;
+}
+
+.community-section .community-list li img {
+    width: 856px;
+    height: 563px;
+    margin-bottom: 45px;
+}
+
+.community-section .community-list li .community-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+ 
+.community-section .community-list li .community-title h4 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.community-section .community-list li .community-title p {
+    font-size: 20px;
+}
+
+.community-section .community-list li .community-text {
+    color: #666;
+    font-size: 23px;
+    line-height: 1.8;
+}
+
+/* sns-section */
+.sns-section {
+    margin-bottom: 100px;
+    padding: 0 60px;
+}
+
+.sns-section .section-header {
+    padding: 0 0 48px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sns-section .section-header img {
+    width: 40px;
+    height: 40px;
+}
+
+.sns-section .section-header h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sns-section .sns-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+
+.sns-section .sns-list li img {
+    width: 338px;
+    height: 338px;
+    object-fit: cover;
+}

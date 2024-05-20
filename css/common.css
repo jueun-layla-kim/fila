@@ -1,0 +1,217 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+/* header */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    width: 1860px;
+	height: 150px;
+    z-index: 10;
+}
+
+.header .logo img {
+    width: 200px;
+    height: 90px;
+}
+
+.header .gnb {
+    display: flex;
+    color: #fff;
+    gap: 46px;
+}
+
+.header .gnb li a {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .gnb li:nth-child(3) {
+    padding-right: 46px;
+    border-right: 1px solid #fff;
+}
+
+.header .header-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.header .header-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+/* footer */
+.footer {
+    background-color: #eee;
+    display: flex;
+    position: relative;
+    padding-bottom: 88px;
+}
+
+.footer .footer-logo img {
+    margin: 70px 60px 0 167px;
+}
+
+.footer .footer-main {
+    width: 1080px;
+}
+
+.footer .footer-main a:first-child {
+    display: inline-block;
+    margin: 75px 0 100px;
+}
+
+.footer .footer-main .footer-menu {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.footer .footer-main .footer-menu a {
+    display: inline-block;
+    margin: 0;
+    padding: 0 15px;
+    border-left: 1px solid #bebebe;
+}
+
+.footer .footer-main .footer-menu li:first-child a {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+}
+
+.footer .footer-main .footer-text {
+    color: #666;
+}
+
+.footer .footer-main .footer-text p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.footer .footer-main .footer-text a {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.footer .footer-main .footer-text .company-info {
+    margin-bottom: 50px;
+}
+
+.footer .footer-main .footer-text .company-info .first-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer .footer-main .footer-text .company-info .second-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .footer-main .footer-text .copyright-info {
+    margin-bottom: 50px;
+}
+
+.footer .footer-main .footer-text .copyright-info .second-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .footer-main .footer-policy {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.footer .footer-main .footer-policy a {
+    display: inline-block;
+    margin: 0;
+    padding: 0 15px;
+    border-left: 1px solid #bebebe;
+}
+
+.footer .footer-main .footer-policy li:first-child a {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+}
+
+.footer .footer-main .footer-policy li:nth-child(2) a {
+    font-weight: bold;
+}
+
+.footer .footer-right .sns-links {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.footer .footer-right .cs-center {
+    position: absolute;
+    top: 160px;
+    right: 30px;
+    width: 470px;
+}
+
+.footer .footer-right .cs-center h4 {
+    display: block;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+
+.footer .footer-right .cs-center span {
+    display: inline-block;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.footer .footer-right .cs-center p {
+    display: inline-block;
+    color: #666;
+    font-size: 20px;
+}
+
+.footer .footer-right .footer-info {
+    position: absolute;
+    top: 554px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 133px;
+    width: 470px;
+}
+
+.footer .footer-right .footer-info li {
+    display: flex;
+    gap: 4px;
+}
+
+.footer .footer-right .footer-info li:last-child {
+    gap: 100px;
+}
+
+.footer .footer-right .footer-info li:last-child img {
+    width: 12px;
+    height: 9px;
+}
